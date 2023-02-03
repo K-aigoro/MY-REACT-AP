@@ -1,0 +1,39 @@
+h1,
+p {
+  font-family: Lato;
+  font-size: 50px;
+}
+ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(136, 141, 146, 0.411);
+  border-radius: 10px;
+  color: rgb(177, 69, 69);
+}
+form {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 1px;
+  margin-right: 6px;
+  /* border: gray; */
+  border-radius: 4px;
+  text-align: center;
+}
+::placeholder {
+  color: orange;
+}
+button {
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
