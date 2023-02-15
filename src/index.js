@@ -7,6 +7,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Header from './component/Header';
 // import App from './App';
+import Test from './Test';
 
 
 
@@ -16,6 +17,7 @@ root.render(
   <React.StrictMode>
     <Manager data={contacts} />
     <Toggle />
+    <Test />
 
   </React.StrictMode>
 );

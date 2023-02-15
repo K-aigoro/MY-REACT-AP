@@ -6,7 +6,7 @@ function Counter() {
     useEffect(() => {
         alert("Number of Cllicks: " + counter);
     });
- 
+
     function increment() {
         setCounter(counter + 1);
     }
